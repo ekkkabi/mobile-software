@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exchange Rate</string>
+    <string name="exchange_rate">1296.3</string>
+    <string name="convert_amount">환전 금액(달러)</string>
+</resources>
