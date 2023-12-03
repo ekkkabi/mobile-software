@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Array</string>
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <integer-array name="intValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="numericalValue">
+        <item>3.14</item>
+        <item>290.0</item>
+        <item>0.24</item>
+    </string-array>
+</resources>
