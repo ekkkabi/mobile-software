@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Select Radio Button</string>
+    <string-array name="colors">
+        <item>빨간색</item>
+        <item>초록색</item>
+        <item>파란색</item>
+    </string-array>
+</resources>
