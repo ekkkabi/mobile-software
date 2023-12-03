@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Select Check Box</string>
+    <string-array name="coffee_menus">
+        <item>아메리카노</item>
+        <item>라떼</item>
+        <item>디카페인</item>
+    </string-array>
+</resources>
