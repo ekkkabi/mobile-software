@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Online Poll</string>
+    <string name="questionnaire">현재 사용 중인 안드로이드 버전은?</string>
+    <string name="button_name">diaplay image</string>
+    <string-array name="version_list">
+        <item>QUeen Cake(10)</item>
+        <item>Red Velvet Cake(11)</item>
+        <item>Snow Cone(12)</item>
+    </string-array>
+</resources>
