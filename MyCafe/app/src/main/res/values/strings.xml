@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab Test</string>
+    <string-array name="coffee_menus">
+        <item>Americano</item>
+        <item>Latte</item>
+        <item>Decaf</item>
+    </string-array>
+</resources>
