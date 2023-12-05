@@ -1,5 +1,7 @@
 package com.example.intentsample
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Build.VERSION_CODES.M
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -28,6 +30,11 @@ class SubActivity : AppCompatActivity() {
         }
 
         binding.button.setOnClickListener {
+           // 결과를 bundle 객체로 생성 -> Intent 객체에 실어보냄
+            val returnStr = binding.editText.text.toString()
+            val data = Intent()
+            data.putExtra(RETURN_MESSAGE, returnStr)
+            setResult(Activity.RESULT_OK, data)
             finish()
         }
     }
