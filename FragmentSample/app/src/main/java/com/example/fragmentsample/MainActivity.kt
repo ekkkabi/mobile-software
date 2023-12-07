@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.fragmentsample.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), FragmentA.ButtonListener, FragmentB.ButtonListenerB {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,5 +38,21 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+    }
+
+    override fun onButtonClick() {
+        supportFragmentManager.beginTransaction().apply {
+            replace(R.id.fragment_container, FragmentB())
+            addToBackStack(null)
+            commit()
+        }
+    }
+
+    override fun onButtonClickB() {
+        supportFragmentManager.beginTransaction().apply {
+            replace(R.id.fragment_container, FragmentA())
+            addToBackStack(null)
+            commit()
+        }
     }
 }
