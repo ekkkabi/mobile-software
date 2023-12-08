@@ -9,6 +9,7 @@ import com.example.fragmentexample.databinding.FragmentProgressBinding
 
 class ProgressFragment : Fragment() {
     private lateinit var binding: FragmentProgressBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -18,6 +19,7 @@ class ProgressFragment : Fragment() {
     }
 
     fun changeProgressBar(cnt: Int) {
+        val cnt = arguments?.getInt(Key_COUNT) ?: 50
         if (cnt in 1..100) {
             binding.progressBar.progress = cnt
             binding.ratingBar.rating = cnt / 20f
