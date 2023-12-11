@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UserInterfaceLab</string>
+    <string name="title">별이 빛나는 밤(The Starry Night, 1889)</string>
+    <string name="artist">빈센트 반 고흐(Vincent van Gogh)</string>
+    <string name="desc">
+        빈센트 반 고흐의 대표작 중 하나로 꼽히는 《별이 빛나는 밤》은 그가 고갱과 다툰 뒤
+        자신의 귀를 자른 사건 이후 생레미의 요양원에 있을 때 그린 것이다.\n
+
+        그는 병실 밖으로 내다보이는 밤 풍경을 기억과 상상을 결합시켜 그렸는데,
+        이는 자연에 대한 반 고흐의 내적이고 주관적인 표현을 구현하고 있다.\n
+
+        고흐에게 밤하늘은 유한함을 표현하는 대상이었다. \n
+        [출처]위키피디아
+    </string>
+</resources>
