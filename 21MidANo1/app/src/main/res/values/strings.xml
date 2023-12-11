@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">21MidANo1</string>
+    <string name="text1">1열</string>
+    <string name="text2">2열</string>
+    <string name="text3">3열</string>
+    <string name="text4">1행</string>
+    <string name="text5">2행</string>
+    <string name="text6">3행</string>
+</resources>
