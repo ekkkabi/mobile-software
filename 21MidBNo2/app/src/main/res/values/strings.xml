@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UserInterfaceLab</string>
+    <string name="poem1">먼 훗날</string>
+    <string name="author1">김 소월</string>
+    <string name="body1">
+            먼 훗날 당신이 찾으시면
+            그때에 내 말이 잊었노라
+            당신이 속으로 나무라면
+            무척 그리다가 잊었노라
+            그래도 당신이 나무라면
+            믿기지 않아서 잊었노라
+            오늘도 어제도 아니 잊고
+            먼 훗날 그때에 잊었노라
+    </string>
+    <string name="poem2">별 헤는 밤</string>
+    <string name="author2">윤 동주</string>
+    <string name="body2">
+        계절이 지나가는 하늘에는\n
+        가을로 가득 차 있습니다.\n
+        나는 아무 걱정도 없이\n
+        가을 속의 별들을 다 헬 듯합니다.\n
+        가슴 속에 하나 둘 새겨지는 별을\n
+        이제 다 못 헤는 것은\n
+        쉬이 아침이 오는 까닭이요,\n
+        내일 밤이 남은 까닭이요,\n
+        아직 나의 청춘이 다하지 않은 까닭입니다.\n
+    </string>
+
+</resources>
